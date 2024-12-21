@@ -12,8 +12,7 @@ int main()
     else if(age>0&&age<100){
         if (age >= 18) cout << "You are eligible for voting";
         else if (age < 18) cout << "You are not eligible for voting ";
-    } else{
-        cout << "Please enter age between 1 to 100";
-    }
+    } 
+    else cout << "Please enter age between 1 to 100";
     return 0;
 }
