@@ -6,7 +6,9 @@ void increByTen(int* ptr) {
 }
 
 int main() {
-    int num = 5;
+    int num;
+    cout << "Enter a number: ";
+    cin >> num;
     cout << "Before increment: " << num;
     increByTen(&num); 
     cout << "After increment: " << num;
