@@ -9,8 +9,8 @@ int main() {
     int num;
     cout << "Enter a number: ";
     cin >> num;
-    cout << "Before increment: " << num;
+    cout << "Before increment:" << num;
     increByTen(&num); 
-    cout << "After increment: " << num;
+    cout << " After increment:" << num;
     return 0;
 }
