@@ -1,3 +1,8 @@
+//      1
+//     3 3
+//    5 5 5
+//   7 7 7 7
+
 #include <iostream>
 using namespace std;
 int main(){
